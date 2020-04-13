@@ -1,0 +1,248 @@
+#background-img {
+    width: 100%;
+    height: 60vw;
+}
+
+#img-link {
+    position: absolute;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 12px 40px;
+    background-color: #0f8856;
+    color: #fff;
+    top: 50vw;
+    left: 45%;
+    text-align: center;
+
+}
+
+#img-link:hover {
+    background-color: #e29b17;
+}
+
+.team-header {
+    width: 100%;
+    padding: 7px;
+    margin: 60px 0px 30px 0px;
+    text-align: center;
+}
+
+.team-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team-img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.team-wrapper .team {
+    text-align: center;
+    width: 18%;
+    margin: 30px;
+}
+
+.team-description {
+    text-align: justify;
+}
+
+.team-contact {
+    text-align: center;
+    background-color: #d8d1d1d0;
+    padding: 8px 0px;
+}
+
+.team-contact a {
+    text-decoration: none;
+    color: #000;
+}
+
+.workdone-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #555;
+    color: #fff;
+    padding: 50px 0px;
+    margin: 100px 0px;
+}
+
+.ourwork-heading {
+    text-align: center;
+    padding: 30px 10px;
+    margin: 20px 0px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.ourwork {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.tech-img {
+    width: 23%;
+    padding: 15px 0px;
+}
+
+.ourskills-container {
+    margin: 100px 0px 0px 0px;
+    padding: 50px 0px 60px 0px;
+    background-color: #f3ebebc4;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.skills {
+    width: 48%;
+    padding: 15px;
+    text-align: justify;
+}
+
+.skills-par {
+    line-height: 70px;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+}
+
+.grey-container {
+    width: 100%;
+    background-color: #999;
+}
+
+.grey {
+    background-color: #666;
+    text-align: center;
+    color: #fff;
+    padding: 4px;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.pricing-container {
+    padding: 80px 0px;
+    background-color: #f7f6f679;
+}
+
+.pricing-heading {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+}
+
+.pricing-heading>h2 {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 5px;
+}
+
+.pricing-heading>p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.pricing-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pricing {
+    width: 31%;
+    text-align: center;
+    border: 1px solid #afadad;
+}
+
+.price-header {
+    background-color: #000;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    padding: 30px 0px;
+}
+
+.back {
+    background-color: #555;
+    padding: 50px 0px;
+}
+
+.price-content {
+    padding: 20px 0px;
+    border-bottom: 1px solid #afadad;
+}
+
+.price-back {
+    background-color: #f3e6e6cb;
+    padding: 30px;
+}
+
+.price-back>p a {
+    text-decoration: none;
+    padding: 12px 20px;
+    background-color: #159b7e;
+    color: #fff;
+}
+
+.price-back>p a:hover {
+    background-color: #4fd5da;
+}
+
+/* For Mobile Devices */
+@media screen and (max-width: 768px) {
+    .team-wrapper .team {
+        width: 35%;
+    }
+
+    .skills {
+        width: 90%;
+        padding: 15px;
+        text-align: justify;
+    }
+
+    .pricing {
+        width: 90%;
+        margin: 15px 0px;
+    }
+
+    #img-link {
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .team-wrapper .team {
+        width: 70%;
+        margin: 20px;
+    }
+
+    .tech-img {
+        width: 45%;
+        padding: 15px 0px;
+    }
+
+    #img-link {
+        top: 40vw;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    #img-link {
+        font-size: 17px;
+        padding: 12px 25px;
+    }
+}
