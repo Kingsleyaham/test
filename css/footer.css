@@ -1,0 +1,29 @@
+footer {
+    background-color: #000;
+    width: 100%;
+}
+
+.footer-container {
+    color: #fff;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.footer-container p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 12px 0px;
+}
+
+.follow-link a i {
+    color: #fff;
+    padding: 10px 14px;
+    margin: 0px 3px;
+    font-size: 20px;
+    background-color: #2458a7;
+}
+
+.follow-link a i:hover {
+    background-color: #fff;
+    color: #000;
+}

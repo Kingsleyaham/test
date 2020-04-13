@@ -1,12 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="A Web Project Using Html Css and Javascript">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Learning How to Use Git</title>
+    <link rel="icon" href="IMG/logo.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/header.css">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/about.css">
+    <link rel="stylesheet" type="text/css" href="CSS/contact.css">
+    <link rel="stylesheet" type="text/css" href="CSS/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="CSS/signup.css">
+    <link rel="stylesheet" type="text/css" href="CSS/login.css">
+    <link rel="stylesheet" type="text/css" href="CSS/reset-password.css">
+    <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+    <title>My First Web Project</title>
 </head>
+
 <body>
-    <h1>My First Heading</h1>
+    <nav>
+        <div class="logo">
+            <h2><a href="index.php">Codeman Web</a></h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="portfolio.php">Portfolio</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <div class="signup-button">
+                <a href="signup.php">Signup</a>
+                <a href="login.php">Login</a>
+            </div>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <!-- End of Header Section -->
+
+    <!-- Main Content Starts Here -->
+    <div class="main-content">
+        <div class="img-wapper">
+            <img id="background-img" src="IMG/sailboat.jpg" alt="">
+            <a id="img-link" href="signup.php">Join Us</a>
+        </div>
+        <div class="team-container">
+            <div class="team-header">
+                <h1 class="team-header">OUR TEAM</h1>
+                <p>Meet our team - that made the imposible possible </p>
+            </div>
+            <div class="team-wrapper">
+                <div class="team">
+                    <img class="team-img" src="IMG/person1.jpg" alt="">
+                    <h3>Johnny Walker</h3>
+                    <p>Backend Developer</p><br>
+                    <div class="team-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod proident, sunt in
+                            culpa qui laborum.</p>
+                        <div class="team-contact">
+                            <a href="signup.php"><i class="fa fa-envelope"></i> Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team">
+                    <img class="team-img" src="IMG/person2.jpg" alt="">
+                    <div class="img-description">
+                        <h3>Rebecca Flex</h3>
+                        <p>App Developer</p><br>
+                        <div class="team-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod proident, sunt
+                                in culpa qui laborum.</p>
+                            <div class="team-contact">
+                                <a href="signup.php"><i class="fa fa-envelope"></i> Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team">
+                    <img class="team-img" class="team-img" src="IMG/person3.jpg" alt="">
+                    <h3>Paul Rose</h3>
+                    <p>Full Stack Developer</p><br>
+                    <div class="team-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod proident, sunt in
+                            culpa qui laborum.</p>
+                        <div class="team-contact">
+                            <a href="signup.php"><i class="fa fa-envelope"></i> Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team">
+                    <img class="team-img" src="IMG/person4.jpg" alt="">
+                    <h3>Jan Ringo</h3>
+                    <p>Ethical Hacker</p><br>
+                    <div class="team-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod proident, sunt in
+                            culpa qui laborum.</p>
+                        <div class="team-contact">
+                            <a href="signup.php"><i class="fa fa-envelope"></i> Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="workdone-wrapper">
+            <div class="workdone">
+                <h1>15<sup>+</sup></h1>
+                <p>Partners</p>
+            </div>
+            <div class="workdone">
+                <h1>85<sup>+</sup></h1>
+                <p>Projects Done</p>
+            </div>
+            <div class="workdone">
+                <h1>150<sup>+</sup></h1>
+                <p>Happy Clients</p>
+            </div>
+            <div class="workdone">
+                <h1>109<sup>+</sup></h1>
+                <p>Meetings</p>
+            </div>
+        </div>
+        <div class="ourwork-container">
+            <div class="ourwork-heading">
+                <h1>OUR WORK</h1>
+                <p>What we've done for people</p>
+            </div>
+            <div>
+                <div class="ourwork">
+                    <img class="tech-img" src="IMG/tech_mic.jpg" alt="">
+                    <img class="tech-img" src="IMG/tech_phone.jpg" alt="">
+                    <img class="tech-img" src="IMG/tech_drone.jpg" alt="">
+                    <img class="tech-img" src="IMG/tech_sound.jpg" alt="">
+                    <img class="tech-img" src="IMG/tech_camera.jpg" alt="">
+                    <img class="tech-img" src="IMG/tech_tableturner.jpg" alt="">
+                    <img class="tech-img" src="IMG/tech_tablet.jpg" alt="">
+                    <img class="tech-img" src="IMG/tech_typewriter.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="ourskills-container">
+            <div class="skills">
+                <h2>Our Skills.</h2><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices id dolor a bibendum. Mauris eu
+                    nibh a est lobortis blandit nec ac ligula. Vestibulum consectetur erat sed tortor vestibulum, a
+                    consectetur risus facilisis</p><br>
+                <p>Nunc pharetra, lacus quis venenatis tempus, quam dui lacinia leo, sit amet consectetur felis lorem
+                    sit amet erat. Donec massa nulla, sollicitudin ut risus quis, ultricies fermentum orci. Nullam
+                    cursus dictum neque id pellentesque.</p>
+                <p>Quisque sagittis dolor a luctus molestie. Donec rutrum eros non augue pellentesque luctus. Maecenas
+                    dolor erat, volutpat et lobortis id, efficitur et est. Sed elit enim, commodo in finibus sit amet,
+                    pharetra eu libero</p>
+            </div>
+            <div class="skills">
+                <p class="skills-par"><i class="fa fa-image icon"></i> Graphic Design</p>
+                <div class="grey-container">
+                    <div class="grey" style="width: 70%">70%</div>
+                </div>
+                <p class="skills-par"><i class="fa fa-file-code-o icon"></i> Web Development</p>
+                <div class="grey-container">
+                    <div class="grey" style="width: 90%">90%</div>
+                </div>
+                <p class="skills-par"><i class="fa fa-gamepad icon"></i> Game Development</p>
+                <div class="grey-container">
+                    <div class="grey" style="width: 80%">80%</div>
+                </div>
+                <p class="skills-par"><i class="fa fa-android icon"></i> App Development</p>
+                <div class="grey-container">
+                    <div class="grey" style="width: 85%">85%</div>
+                </div>
+            </div>
+        </div>
+        <div class="pricing-container">
+            <div class="pricing-heading">
+                <h2>PRICING</h2><br>
+                <p>Choose a pricing plan that suits your needs.</p>
+            </div><br>
+            <div class="pricing-wrapper">
+                <div class="pricing">
+                    <div class="price-header">
+                        <p>Basic</p>
+                    </div>
+                    <div class="price-content">
+                        <p><span style="font-weight: bold;">10GB</span> Storage</p>
+                    </div>
+                    <div class="price-content">
+                        <p><span style="font-weight: bold;">10</span> Emails</p>
+                    </div>
+                    <div class="price-content">
+                        <p><span style="font-weight: bold;">10</span> Domains</p>
+                    </div>
+                    <div class="price-content">
+                        <p><span style="font-weight: bold;">Endless</span> Support</p>
+                    </div>
+                    <div class="price-content">
+                        <p> <span style="font-size: 28px; letter-spacing: 5px;line-height: 60px;"><i
+                                    class="fa fa-dollar"> </i> 10</span></p>
+                        <p><span style="color: #555;">per month</span></p>
+                    </div>
+                    <div class="price-content price-back">
+                        <p><a href="signup.php"><i class="fa fa-check"> </i> Sign Up</a></p>
+                    </div>
+                </div>
+                <div class="pricing">
+                    <div class="price-header back">
+                        <p>Pro</p>
+                    </div>
+                    <div class="price-content">
+                        <p><span style="font-weight: bold;">25GB</span> Storage</p>
+                    </div>
+                    <div class="price-content">
+                        <p><span style="font-weight: bold;">25</span> Emails</p>
+                    </div>
+                    <div class="price-content">
+                        <p><span style="font-weight: bold;">25</span> Domains</p>
+                    </div>
+                    <div class="price-content">
+                        <p><span style="font-weight: bold;">Endless</span> Support</p>
+                    </div>
+                    <div class="price-content">
+                        <p> <span style="font-size: 28px; letter-spacing: 5px;line-height: 60px;"><i
+                                    class="fa fa-dollar"> </i> 25</span></p>
+                        <p><span style="color: #555;">per month</span></p>
+                    </div>
+                    <div class="price-content price-back">
+                        <p><a href="signup.php"><i class="fa fa-check"> </i> Sign Up</a></p>
+                    </div>
+                </div>
+                <div class="pricing">
+                    <div class="price-header">
+                        <p>Premium</p>
+                    </div>
+                    <div class="price-content">
+                        <p><span style="font-weight: bold;">50GB</span> Storage</p>
+                    </div>
+                    <div class="price-content">
+                        <p><span style="font-weight: bold;">50</span> Emails</p>
+                    </div>
+                    <div class="price-content">
+                        <p><span style="font-weight: bold;">50</span> Domains</p>
+                    </div>
+                    <div class="price-content">
+                        <p><span style="font-weight: bold;">Endless</span> Support</p>
+                    </div>
+                    <div class="price-content">
+                        <p> <span style="font-size: 28px; letter-spacing: 5px;line-height: 60px;"><i
+                                    class="fa fa-dollar"> </i> 50</span></p>
+                        <p><span style="color: #555;">per month</span></p>
+                    </div>
+                    <div class="price-content price-back">
+                        <p><a href="signup.php"><i class="fa fa-check"> </i> Sign Up</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Content Ends Here -->
+    <!-- Footer Starts Here -->
+    <footer>
+        <div class="footer-container">
+            <p>Follow us</p>
+            <div class="follow-link">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-snapchat"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-youtube"></i></a>
+            </div>
+            <p>Powered By Codeman Web (Codeman)</p>
+
+        </div>
+    </footer>
+    <script src="JAVASCRIPT/menuicon.js"></script>
 </body>
+
 </html>
